@@ -4,9 +4,17 @@ Simple PHP library for minifying and concatenating JavaScript and CSS files for 
 
 ## Installing
 
-Just use composer to install m_nify
+File **composer.json**
 
-    composer require crypto_scythe/m_nify
+    {
+      "require": {
+        "crypto_scythe/m_nify": "*"
+      }
+    }
+
+Then on command line:
+
+    composer install
 
 ## Usage
 
