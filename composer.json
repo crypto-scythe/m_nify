@@ -1,0 +1,32 @@
+{
+  "name": "crypto_scythe/m_nify",
+  "description": "Simple JavaScript / CSS Minifier",
+  "version": "1.0.0",
+  "keywords": [
+    "php",
+    "javascript",
+    "css",
+    "asset optimisation",
+    "asset optimization",
+    "asset minification",
+    "minify"
+  ],
+  "homepage": "https://github.com/crypto_scythe/m_nify",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris Fasel",
+      "email": "crypto.scythe@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "natxet/cssmin": "3.0.*",
+    "tedivm/jshrink": "1.0.*"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
